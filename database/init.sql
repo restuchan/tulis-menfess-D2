@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS tekser_menfess;
+USE tekser_menfess;
+
 CREATE TABLE IF NOT EXISTS menfess (
     id INT AUTO_INCREMENT PRIMARY KEY,
     sender VARCHAR(50) NOT NULL,
